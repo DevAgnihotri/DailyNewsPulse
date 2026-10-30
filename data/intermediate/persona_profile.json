@@ -1,0 +1,14 @@
+{
+  "topics": [
+    "Artificial Intelligence",
+    "Quantum Computing",
+    "Space Exploration"
+  ],
+  "exclude_topics": [
+    "Celebrity Gossip",
+    "Sports"
+  ],
+  "tone": "concise",
+  "reading_level": "intermediate",
+  "depth": "detailed"
+}

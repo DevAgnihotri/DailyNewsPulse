@@ -1,0 +1,7 @@
+{
+  "name": "Alex Tech", "interests": ["Artificial Intelligence", "Quantum Computing", "Space Exploration"],
+  "exclude": ["Celebrity Gossip", "Sports Score"],
+  "reading_level": "intermediate",
+  "preferred_tone": "concise and analytical",
+  "depth": "detailed"
+}

@@ -1,0 +1,170 @@
+{
+  "persona_id": "sports_fan",
+  "persona_name": "Sports Fan",
+  "persona_description": "Followers of cricket, football, and major sporting events and personalities.",
+  "week_start_date": "2026-09-10",
+  "week_end_date": "2026-09-17",
+  "weekly_insight": "This week’s sporting landscape highlights how geopolitical tensions and administrative decisions continue to shape international cricket, epitomized by the Indian women’s team skipping their Asia Cup trophy presentation to avoid a Pakistani official. On the pitch, England’s dominant 3-0 Test sweep over a penalized Pakistani squad contrasts with lingering uncertainties about their squad's long-term consistency and controversial venue rotations that leave Northern fans without an Ashes Test next year. Meanwhile, the high-stakes world of football transfers remains as volatile as ever, with Richarlison pivoting back to Tottenham after a collapsed deal and Manchester City defending heavy summer spending in an increasingly competitive market. For fans looking to consume this diverse array of action, media networks are responding with massive multi-sport broadcast weekends and flexible streaming options for upcoming marquee events like the England-Sri Lanka T20 series. Ultimately, whether navigating political standoffs, squad rebuilds, or transfer market chaos, the modern sports fan is witnessing a landscape where off-field drama and strategic business decisions are just as impactful as the action on the field.",
+  "total_articles": 10,
+  "total_categories": 1,
+  "categories": [
+    {
+      "topic": "cricket",
+      "count": 10,
+      "articles": [
+        {
+          "title": "India Takes on Afghanistan in Live T20 Cricket Match in New Delhi",
+          "bullets": [
+            "The T20 game between India and Afghanistan is being played today in New Delhi with live updates available.",
+            "Both teams have announced their line-ups, featuring star players like Virat Kohli for India and Rashid Khan for Afghanistan.",
+            "Fans can follow real-time scores, commentary, and photos through the live coverage platform."
+          ],
+          "source": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/liveblog/2026/9/15/india-vs-afghanistan-live-t20-cricket-match",
+          "published_at": "2026-09-15T12:33:40Z",
+          "relevance_score": 0.95,
+          "scoring_reason": "Directly covers a live international cricket match, matching the highest priority target topic.",
+          "read_time_minutes": 1,
+          "original_title": "India vs Afghanistan live: T20 cricket match"
+        },
+        {
+          "title": "How to Watch England vs Sri Lanka 2026 T20 Cricket Series",
+          "bullets": [
+            "The three‑match T20 series runs from June 5 to June 9, 2026, with games in London, Birmingham and Manchester.",
+            "Live TV coverage will be on Sky Sports in the UK and on Willow TV in the US, while free streaming is available via the ICC’s official website and the BBC iPlayer for UK viewers.",
+            "Tickets can be purchased online through the official England Cricket website or at each stadium’s box office, with early‑bird discounts for the first two matches.",
+            "England will rely on fast bowler Harry Brook and a strong batting line‑up, while Sri Lanka aims to surprise with their spin attack and young talent."
+          ],
+          "source": "TechRadar",
+          "url": "https://www.techradar.com/how-to-watch/cricket/england-vs-sri-lanka-2026-t20-series",
+          "published_at": "2026-09-15T12:00:00Z",
+          "relevance_score": 0.92,
+          "scoring_reason": "Preview and streaming guide for an upcoming international cricket series.",
+          "read_time_minutes": 1,
+          "original_title": "How to watch England vs Sri Lanka 2026 T20 series: cricket live streams, schedule, tickets and preview"
+        },
+        {
+          "title": "India Wins Women's Asia Cup but Skips Trophy Ceremony",
+          "bullets": [
+            "India's women's cricket team clinched the Asia Cup title but were absent from the trophy presentation.",
+            "The ceremony was conducted by Pakistani Interior Minister and ACC President Naqvi in the team's absence.",
+            "Skipping the event highlights ongoing political tensions affecting sports events in the region."
+          ],
+          "source": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/9/13/india-win-womens-asia-cup-but-do-not-accept-trophy",
+          "published_at": "2026-09-13T20:41:12Z",
+          "relevance_score": 0.9,
+          "scoring_reason": "Covers a major cricket tournament (Women's Asia Cup) and team news.",
+          "read_time_minutes": 1,
+          "original_title": "India win Women’s Asia Cup but do not accept trophy"
+        },
+        {
+          "title": "India Declines Trophy Hand‑over from Pakistani Official After Winning Asia Cup",
+          "bullets": [
+            "The Indian women's cricket team won the Asia Cup final in Dubai but left the field without taking the trophy.",
+            "The trophy was to be presented by Pakistan Cricket Board chairman Moshin Naqvi, which India refused to accept.",
+            "The snub highlights continuing tensions between the cricket boards of India and Pakistan."
+          ],
+          "source": "ABC News (AU)",
+          "url": "https://www.abc.net.au/news/2026-09-15/india-refuses-asia-cup-cricket-trophy-from-pakistani-minister/107153570",
+          "published_at": "2026-09-14T21:30:59Z",
+          "relevance_score": 0.9,
+          "scoring_reason": "Covers a major cricket tournament controversy involving the Indian and Pakistani teams.",
+          "read_time_minutes": 1,
+          "original_title": "India refuses to accept Asia Cup cricket trophy from Pakistani minister"
+        },
+        {
+          "title": "England Near Whitewash of Pakistan in Third Test as Robinson Stars",
+          "bullets": [
+            "England is just one win away from a 3-0 series sweep over Pakistan.",
+            "Batsman Robinson played a key innings, helping England build a strong lead.",
+            "Pakistan were 52 for 2 before rain stopped play early on day two, and they still need 268 runs to avoid England batting again."
+          ],
+          "source": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/9/10/england-close-in-on-pakistan-whitewash-in-third-test-as-robinson-shines",
+          "published_at": "2026-09-10T18:01:15Z",
+          "relevance_score": 0.9,
+          "scoring_reason": "Live coverage and updates from an international cricket Test match.",
+          "read_time_minutes": 1,
+          "original_title": "England close in on Pakistan whitewash in third Test as Robinson shines"
+        },
+        {
+          "title": "England Cricket Team Faces Uncertainty After Mixed Test Summer",
+          "bullets": [
+            "England's performance in the June Test series was uneven, showing both strong moments and clear weaknesses.",
+            "Analysts say the team still has more questions than answers as it heads into the September fixtures.",
+            "Coach and players hope to fix the issues and improve results in the upcoming matches later this season."
+          ],
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/cj64nxkx22jo",
+          "published_at": "2026-09-12T15:59:44Z",
+          "relevance_score": 0.88,
+          "scoring_reason": "Analysis of the England cricket team's Test summer, highly relevant to cricket fans.",
+          "read_time_minutes": 1,
+          "original_title": "England chasing the rainbow with more questions than answers"
+        },
+        {
+          "title": "No Ashes Test Planned for Northern England Next Year After 2023 Venue Switch",
+          "bullets": [
+            "The cricket board said there will be no men's Ashes Test in the north for the upcoming season.",
+            "The decision follows the 2023 series move that shifted a match from Southampton to Headingley.",
+            "The change is meant to balance venue allocations, affecting northern fans and local businesses."
+          ],
+          "source": "BBC News",
+          "url": "https://www.bbc.co.uk/sport/cricket/articles/c1wxgy0jez1o",
+          "published_at": "2026-09-11T11:43:23Z",
+          "relevance_score": 0.88,
+          "scoring_reason": "Covers venue decisions for the Ashes, a major cricket tournament.",
+          "read_time_minutes": 1,
+          "original_title": "No northern Ashes Test a result of 2023 switch"
+        },
+        {
+          "title": "Pakistan Penalized 11 Points for Slow Over Rate as England Wins Test",
+          "bullets": [
+            "Pakistan was fined and lost 11 points for bowling too slowly in the Edgbaston Test.",
+            "England chased down the target with eight wickets in hand, winning the match.",
+            "The victory gave England a 3-0 series sweep over Pakistan."
+          ],
+          "source": "Al Jazeera English",
+          "url": "https://www.aljazeera.com/sports/2026/9/14/pakistan-fined-docked-11-points-in-edgbaston-test-for-slow-over-rate",
+          "published_at": "2026-09-14T16:10:52Z",
+          "relevance_score": 0.88,
+          "scoring_reason": "Covers match results and penalties from a major cricket Test series.",
+          "read_time_minutes": 1,
+          "original_title": "Pakistan fined, docked 11 points in Edgbaston Test for slow over rate"
+        },
+        {
+          "title": "How to Watch All the Sports on Sky Sports' Big Weekend",
+          "bullets": [
+            "Sky Sports will broadcast football, Formula 1, cricket, golf, tennis and NFL all in one weekend.",
+            "Check the Sky Sports schedule and use the Sky Go app or NOW TV to stream the events live.",
+            "A Sky Sports subscription is required, but you can buy a short‑term pass if you only want to watch the weekend."
+          ],
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football/news/11095/13583497/how-to-watch-premier-league-wsl-spanish-grand-prix-us-open-finals-solheim-cup-and-nfl-with-sky-sports-and-now",
+          "published_at": "2026-09-10T09:00:00Z",
+          "relevance_score": 0.85,
+          "scoring_reason": "Guide to watching a major sports weekend featuring football, cricket, and other sports.",
+          "read_time_minutes": 1,
+          "original_title": "How to watch Sky Sport's Big Weekend"
+        },
+        {
+          "title": "Richarlison Sets Sights on Tottenham After Vasco da Gama Deal Falls Through",
+          "bullets": [
+            "Brazilian striker Richarlison said he will target a move to Tottenham Hotspur after his planned transfer to Vasco da Gama collapsed.",
+            "Arsenal admitted they were lucky to miss out on signing Vinicius Jr., who remains with Real Madrid.",
+            "Manchester City manager Enzo Maresca explained the club had to spend heavily this summer because the transfer market was extremely competitive.",
+            "Scottish defender John Souttar completed a move to Greek side Aris Thessaloniki."
+          ],
+          "source": "Sky Sports",
+          "url": "https://www.skysports.com/football/transfer-paper-talk/12709/13585182/tottenham-transfer-news-spurs-forward-richarlison-takes-aim-at-spurs-following-collapse-of-proposed-vasco-da-gama-transfer-paper-talk",
+          "published_at": "2026-09-11T22:16:00Z",
+          "relevance_score": 0.85,
+          "scoring_reason": "Covers football transfer news and athlete updates, highly relevant to football fans.",
+          "read_time_minutes": 1,
+          "original_title": "Papers: Richarlison takes aim at Spurs after failed Vasco da Gama move"
+        }
+      ]
+    }
+  ]
+}

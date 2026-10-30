@@ -1,0 +1,8 @@
+langgraph
+langchain-groq
+langchain-google-genai
+mcp
+python-dotenv
+fastapi
+uvicorn
+pytest

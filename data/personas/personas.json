@@ -1,0 +1,164 @@
+{
+  "personas": [
+    {
+      "persona_id": "tech_professional",
+      "name": "Tech Professional",
+      "description": "Software engineers, IT professionals, and tech industry workers who want to stay current on their field.",
+      "topics": [
+        { "keyword": "artificial intelligence", "weight": 0.9 },
+        { "keyword": "software engineering", "weight": 0.85 },
+        { "keyword": "startups", "weight": 0.7 },
+        { "keyword": "cybersecurity", "weight": 0.75 },
+        { "keyword": "big tech companies", "weight": 0.8 }
+      ],
+      "exclude_topics": ["celebrity gossip", "sports"],
+      "tone": "professional, concise",
+      "reading_level": "advanced",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "college_student",
+      "name": "College Student",
+      "description": "Students interested in campus life, careers, and light general news in simple language.",
+      "topics": [
+        { "keyword": "campus life", "weight": 0.7 },
+        { "keyword": "career and jobs", "weight": 0.8 },
+        { "keyword": "exams and education", "weight": 0.75 },
+        { "keyword": "scholarships", "weight": 0.6 },
+        { "keyword": "technology basics", "weight": 0.6 },
+        { "keyword": "pop culture", "weight": 0.65 }
+      ],
+      "exclude_topics": ["complex finance", "economic policy jargon"],
+      "tone": "casual, simple",
+      "reading_level": "beginner",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "finance_markets",
+      "name": "Finance & Markets Enthusiast",
+      "description": "Investors and finance-minded readers who track markets, economy, and business news closely.",
+      "topics": [
+        { "keyword": "stock markets", "weight": 0.9 },
+        { "keyword": "economy", "weight": 0.85 },
+        { "keyword": "RBI monetary policy", "weight": 0.8 },
+        { "keyword": "startups and IPOs", "weight": 0.75 },
+        { "keyword": "cryptocurrency", "weight": 0.65 }
+      ],
+      "exclude_topics": ["entertainment", "sports"],
+      "tone": "analytical, data-driven",
+      "reading_level": "advanced",
+      "depth": "detailed"
+    },
+    {
+      "persona_id": "casual_reader",
+      "name": "Casual General Reader",
+      "description": "Everyday readers who want light, easy-to-digest news without niche or technical topics.",
+      "topics": [
+        { "keyword": "trending news", "weight": 0.8 },
+        { "keyword": "human interest stories", "weight": 0.75 },
+        { "keyword": "light politics", "weight": 0.6 },
+        { "keyword": "entertainment", "weight": 0.65 }
+      ],
+      "exclude_topics": ["technical deep-dives", "niche academic topics"],
+      "tone": "friendly, easy-going",
+      "reading_level": "beginner",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "health_wellness",
+      "name": "Health & Wellness Follower",
+      "description": "Readers focused on personal health, medical research, and wellbeing news.",
+      "topics": [
+        { "keyword": "public health", "weight": 0.85 },
+        { "keyword": "nutrition", "weight": 0.7 },
+        { "keyword": "mental health", "weight": 0.8 },
+        { "keyword": "medical research", "weight": 0.75 },
+        { "keyword": "fitness trends", "weight": 0.6 }
+      ],
+      "exclude_topics": ["political controversy"],
+      "tone": "warm, informative",
+      "reading_level": "intermediate",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "policy_governance",
+      "name": "Policy & Governance Watcher",
+      "description": "Readers who follow government policy, law, and international relations closely.",
+      "topics": [
+        { "keyword": "government policy", "weight": 0.9 },
+        { "keyword": "elections", "weight": 0.8 },
+        { "keyword": "international relations", "weight": 0.8 },
+        { "keyword": "law and judiciary", "weight": 0.7 },
+        { "keyword": "public administration", "weight": 0.65 }
+      ],
+      "exclude_topics": ["entertainment", "sports"],
+      "tone": "formal, neutral",
+      "reading_level": "advanced",
+      "depth": "detailed"
+    },
+    {
+      "persona_id": "sports_fan",
+      "name": "Sports Fan",
+      "description": "Followers of cricket, football, and major sporting events and personalities.",
+      "topics": [
+        { "keyword": "cricket", "weight": 0.9 },
+        { "keyword": "football", "weight": 0.8 },
+        { "keyword": "major tournaments", "weight": 0.75 },
+        { "keyword": "athlete news", "weight": 0.7 },
+        { "keyword": "sports business", "weight": 0.55 }
+      ],
+      "exclude_topics": ["unrelated politics", "unrelated finance"],
+      "tone": "energetic, casual",
+      "reading_level": "intermediate",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "startup_founder",
+      "name": "Entrepreneur / Startup Founder",
+      "description": "Founders and business builders who need sharp, actionable startup and business news.",
+      "topics": [
+        { "keyword": "startups", "weight": 0.9 },
+        { "keyword": "venture capital", "weight": 0.85 },
+        { "keyword": "product launches", "weight": 0.7 },
+        { "keyword": "entrepreneurship", "weight": 0.75 },
+        { "keyword": "business strategy", "weight": 0.7 }
+      ],
+      "exclude_topics": ["celebrity gossip"],
+      "tone": "sharp, actionable",
+      "reading_level": "advanced",
+      "depth": "detailed"
+    },
+    {
+      "persona_id": "environment_climate",
+      "name": "Environment & Climate Advocate",
+      "description": "Readers focused on climate change, sustainability, and environmental policy.",
+      "topics": [
+        { "keyword": "climate change", "weight": 0.9 },
+        { "keyword": "sustainability", "weight": 0.8 },
+        { "keyword": "renewable energy", "weight": 0.8 },
+        { "keyword": "environmental policy", "weight": 0.75 },
+        { "keyword": "conservation", "weight": 0.65 }
+      ],
+      "exclude_topics": ["unrelated entertainment"],
+      "tone": "earnest, informative",
+      "reading_level": "intermediate",
+      "depth": "summary"
+    },
+    {
+      "persona_id": "working_parent",
+      "name": "Working Parent",
+      "description": "Parents balancing work and family who want practical, relevant news for their household.",
+      "topics": [
+        { "keyword": "education policy", "weight": 0.8 },
+        { "keyword": "parenting tips", "weight": 0.75 },
+        { "keyword": "local news", "weight": 0.7 },
+        { "keyword": "health", "weight": 0.7 },
+        { "keyword": "government schemes for families", "weight": 0.65 }
+      ],
+      "exclude_topics": ["heavy tech jargon", "stock market deep-dives"],
+      "tone": "practical, warm",
+      "reading_level": "intermediate",
+      "depth": "summary"
+    }
+  ]
+}

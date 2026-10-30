@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Daily Pulse | AI Personalized Weekly News & Executive Insights</title>
+  <meta name="description" content="Jagran-inspired AI-driven multi-agent weekly news curation with custom persona intelligence, bullet summaries, and executive synthesis." />
+  
+  <!-- Google Fonts: Merriweather (Editorial Headlines), Plus Jakarta Sans (Structure) & Inter (Body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=7.0" />
+</head>
+<body>
+
+  <!-- Top Newspaper Dateline Bar -->
+  <div class="top-dateline-bar">
+    <div class="dateline-container">
+      <div class="dateline-left">
+        <span class="dateline-edition">National Edition • AI Intelligence Desk</span>
+        <span class="dateline-divider">|</span>
+        <span class="dateline-date" id="currentDateStr">Wednesday, September 16, 2026 | New Delhi</span>
+      </div>
+      <div class="dateline-right">
+        <span class="trust-badge">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm-2 16l-4-4 1.41-1.41L10 14.17l6.59-6.59L18 9l-8 8z"/>
+          </svg>
+          Verified Sources • 100% Curation
+        </span>
+        <span class="dateline-divider">|</span>
+        <div class="live-status">
+          <span class="pulse-dot"></span>
+          <span>Groq + Gemini 3.6 Flash + MCP Active</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Jagran-Style Newspaper Masthead -->
+  <header class="newspaper-header">
+    <div class="masthead-container">
+      <!-- Main Newspaper Brand Masthead -->
+      <div class="brand-masthead">
+        <div class="masthead-ornament">Weekly Intelligence & Executive Analysis</div>
+        <div class="brand-title-wrap">
+          <div class="brand-logo-mark">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2"/>
+              <path d="M18 14h-8"/>
+              <path d="M15 18h-5"/>
+              <path d="M10 6h8v4h-8V6Z"/>
+            </svg>
+          </div>
+          <h1 class="newspaper-name">THE DAILY <span class="text-brand">PULSE</span></h1>
+        </div>
+      </div>
+
+      <!-- Masthead Right: Refresh Feed Action -->
+      <div class="masthead-actions">
+        <button id="mastheadRefreshBtn" class="btn-masthead-refresh" title="Run AI pipeline and refresh weekly feed">
+          <svg class="refresh-icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+          </svg>
+          <span class="btn-refresh-text">Refresh Feed</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Newspaper Page Container -->
+  <main class="main-container">
+
+    <!-- Section: Step 30 Persona Selector -->
+    <section class="persona-section" id="personaSection">
+      <div class="section-header-newspaper">
+        <div class="section-title-box">
+          <span class="newspaper-section-kicker">Curated News Profiles</span>
+          <h2 class="section-heading">Select Reader Persona</h2>
+        </div>
+        <p class="section-lead-text">
+          Choose from pre-engineered reader profiles tailored with customized topic weights, exclusions, and weekly focus areas. Click any profile to inspect complete specifications.
+        </p>
+      </div>
+
+      <!-- Persona Grid Cards -->
+      <div class="persona-grid" id="personaGrid" role="tablist" aria-label="Persona Cards">
+        <!-- Persona cards dynamically rendered by app.js -->
+        <div class="skeleton-persona-card"></div>
+        <div class="skeleton-persona-card"></div>
+        <div class="skeleton-persona-card"></div>
+      </div>
+    </section>
+
+    <!-- Loading State: Real-Time Multi-Agent Terminal Synchronized Execution -->
+    <div class="feed-loading hidden" id="feedLoading">
+      <div class="pipeline-loader-header">
+        <div class="newspaper-loader">
+          <div class="loader-spinner"></div>
+        </div>
+        <div class="loader-header-text">
+          <div class="live-pulse-badge">
+            <span class="live-dot"></span>
+            <span>BACKEND TERMINAL IN LIVE SYNC</span>
+          </div>
+          <h3 class="loading-title" id="loadingTitle">Curating Personalized Weekly Broadsheet</h3>
+          <p class="loading-subtitle" id="loadingSubtitle">
+            Multi-agent LangGraph orchestrating live news ingestion, Gemini 3.6 scoring, and Groq bullet distillation.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Real-time Agent Progress Stepper (Synchronized with Backend Nodes) -->
+      <div class="agent-live-stepper" id="agentLiveStepper">
+        <div class="stepper-step active" id="stepAgent1">
+          <span class="step-num">1</span>
+          <span class="step-name">News Fetch (MCP)</span>
+        </div>
+        <div class="stepper-line" id="stepLine1"></div>
+        <div class="stepper-step" id="stepAgent2">
+          <span class="step-num">2</span>
+          <span class="step-name">Gemini 3.6 Scoring</span>
+        </div>
+        <div class="stepper-line" id="stepLine2"></div>
+        <div class="stepper-step" id="stepAgent3">
+          <span class="step-num">3</span>
+          <span class="step-name">Groq Distillation</span>
+        </div>
+        <div class="stepper-line" id="stepLine3"></div>
+        <div class="stepper-step" id="stepAgent4">
+          <span class="step-num">4</span>
+          <span class="step-name">Gemini 3.6 Synthesis</span>
+        </div>
+        <div class="stepper-line" id="stepLine4"></div>
+        <div class="stepper-step" id="stepAgent5">
+          <span class="step-num">5</span>
+          <span class="step-name">Broadsheet Assembly</span>
+        </div>
+      </div>
+
+      <!-- Active Agent Telemetry Card (Translates terminal operations into simple plain English) -->
+      <div class="active-agent-telemetry-card" id="activeAgentCard">
+        <div class="telemetry-card-top">
+          <div class="agent-badge-group">
+            <span class="agent-badge-pill" id="telemetryStepBadge">AGENT 1 OF 5</span>
+            <span class="agent-engine-pill" id="telemetryEngineBadge">MCP News Protocol</span>
+          </div>
+          <span class="agent-timer-text" id="telemetryTimer">Elapsed: 0.0s</span>
+        </div>
+        <h4 class="telemetry-agent-name" id="telemetryAgentName">News Fetch Desk</h4>
+        <p class="telemetry-agent-desc" id="telemetryAgentDesc">Fetching verified 7-day articles across persona target topics via MCP stdio client...</p>
+      </div>
+
+      <!-- Live Terminal Console Stream (Real-time Mirror of Terminal Output) -->
+      <div class="live-terminal-mirror-box" id="liveTerminalMirrorBox">
+        <div class="terminal-mirror-header">
+          <div class="terminal-header-title">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="4 17 10 11 4 5"></polyline>
+              <line x1="12" y1="19" x2="20" y2="19"></line>
+            </svg>
+            <span>LIVE TERMINAL LOG STREAM</span>
+          </div>
+          <span class="terminal-sync-indicator" id="terminalSyncIndicator">CONNECTED &bull; LIVE</span>
+        </div>
+        <div class="terminal-mirror-body" id="terminalMirrorLogs">
+          <div class="terminal-log-row">[00:00:00] Initializing multi-agent pipeline telemetry...</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prominent High-Visibility Pipeline Error Diagnostic Alert -->
+    <div class="feed-error hidden" id="feedError">
+      <div class="error-alert-card">
+        <div class="error-alert-header">
+          <div class="error-badge-prominent">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span id="errorTypeBadge">PIPELINE EXECUTION NOTICE</span>
+          </div>
+          <span class="error-agent-tag" id="errorAgentTag">Agent Node: Standby</span>
+        </div>
+
+        <h3 class="error-prominent-title" id="errorTitle">Weekly Digest Not Found</h3>
+        <p class="error-prominent-message" id="errorMessage">The weekly news feed for this reader persona has not been generated yet.</p>
+        
+        <div class="error-recovery-box" id="errorRecoveryBox">
+          <div class="recovery-box-title">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+            <span>Recommended Recovery:</span>
+          </div>
+          <p class="recovery-box-text" id="errorRecoveryText">Click 'Generate Feed Now' below to trigger the multi-agent pipeline and compile this broadsheet.</p>
+        </div>
+
+        <details class="error-terminal-details hidden" id="errorTerminalDetails">
+          <summary class="terminal-details-summary">View Raw Terminal Trace & Exception</summary>
+          <pre class="terminal-trace-code" id="errorTerminalCode"></pre>
+        </details>
+
+        <div class="error-actions-row">
+          <button id="generateNowBtn" class="btn-newspaper-primary">
+            <svg class="refresh-icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+            </svg>
+            <span id="generateNowBtnText">Generate Feed Now</span>
+          </button>
+          <button id="retryErrorBtn" class="btn-newspaper-secondary hidden">
+            <span>Dismiss Alert</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: Step 31 Feed Results Display -->
+    <section class="feed-section hidden" id="feedSection">
+      
+      <!-- Newspaper Front-Page Hero Header Banner -->
+      <div class="newspaper-hero-box" id="feedHeroBanner">
+        
+        <div class="hero-top-row">
+          <div class="persona-headline-block">
+            <div class="edition-badge" id="weekRangeBadge">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg>
+              <span id="feedWeekDate">Weekly Edition: Sep 09 – Sep 16, 2026</span>
+            </div>
+            <h2 class="active-persona-title" id="activePersonaName">Tech Professional</h2>
+            <p class="active-persona-desc" id="activePersonaDesc">Software engineers and tech workers staying current on their field.</p>
+          </div>
+
+          <!-- Newspaper Actions & Stat Column -->
+          <div class="hero-actions-stats-wrap">
+            <div class="newspaper-stats-box" id="feedStatsBox">
+              <div class="stat-cell">
+                <span class="stat-number" id="statArticleCount">10</span>
+                <span class="stat-label">Key Stories</span>
+              </div>
+              <div class="stat-divider-v"></div>
+              <div class="stat-cell">
+                <span class="stat-number" id="statCategoryCount">2</span>
+                <span class="stat-label">Categories</span>
+              </div>
+            </div>
+
+            <!-- Feed Primary Refresh Button -->
+            <button id="heroRefreshBtn" class="btn-hero-refresh" title="Trigger full AI ingestion & synthesis pipeline">
+              <svg class="refresh-icon-svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.3"/>
+              </svg>
+              <span class="btn-refresh-text">Refresh Feed</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Weekly Executive Synthesis Insight Card (Jagran Editorial Box) -->
+        <div class="editorial-synthesis-card" id="weeklyInsightCard">
+          <div class="editorial-card-header">
+            <div class="editorial-badge">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 20h9"></path>
+                <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+              </svg>
+              <span class="editorial-badge-text">Editorial Perspective • Executive Synthesis (Google Gemini 3.6 Flash)</span>
+            </div>
+            <span class="editorial-subtag">Weekly Overarching Themes & Strategic Patterns</span>
+          </div>
+          <div class="editorial-body">
+            <p class="insight-body-text" id="weeklyInsightText">
+              Loading synthesis...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feed Categorized Articles Container -->
+      <div class="feed-categories-container" id="feedCategoriesContainer">
+        <!-- Categories and Article Cards dynamically inserted here -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Complete Persona Details Modal Dialog -->
+  <dialog id="personaModal" class="persona-modal" aria-labelledby="modalPersonaTitle">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-badge-row">
+          <span class="modal-profile-kicker" id="modalProfileIndex">PROFILE SPECIFICATION</span>
+          <span class="modal-status-badge" id="modalActiveStatus">SELECTED PROFILE</span>
+        </div>
+        <button id="modalCloseBtn" class="modal-close-btn" aria-label="Close dialog" title="Close (Esc)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <h2 class="modal-persona-heading" id="modalPersonaTitle">Tech Professional</h2>
+        <p class="modal-persona-description" id="modalPersonaDesc">
+          Software engineers, IT professionals, and tech industry workers who want to stay current on their field.
+        </p>
+
+        <!-- Spec Highlights Grid -->
+        <div class="modal-specs-grid">
+          <div class="spec-cell">
+            <span class="spec-label">Editorial Tone</span>
+            <span class="spec-value" id="modalTone">Professional, Concise</span>
+          </div>
+          <div class="spec-cell">
+            <span class="spec-label">Reading Level</span>
+            <span class="spec-value" id="modalReadingLevel">Advanced</span>
+          </div>
+          <div class="spec-cell">
+            <span class="spec-label">Content Depth</span>
+            <span class="spec-value" id="modalDepth">Summary</span>
+          </div>
+        </div>
+
+        <!-- Tracked Focus Topics with Weights -->
+        <div class="modal-section-box">
+          <h4 class="modal-section-title">Tracked Focus Topics & Priority Weights</h4>
+          <div class="modal-topics-grid" id="modalTopicsList">
+            <!-- Dynamically injected -->
+          </div>
+        </div>
+
+        <!-- Excluded Topics -->
+        <div class="modal-section-box" id="modalExcludeBox">
+          <h4 class="modal-section-title">Strict Negative Filters (Excluded Topics)</h4>
+          <div class="modal-exclude-tags" id="modalExcludeList">
+            <!-- Dynamically injected -->
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="modalApplyBtn" class="btn-modal-apply">View Weekly News Feed for this Persona</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Newspaper Footer / Colophon -->
+  <footer class="newspaper-footer">
+    <div class="footer-container">
+      <div class="footer-masthead">
+        <h4 class="footer-title">THE DAILY <span class="text-brand">PULSE</span></h4>
+      </div>
+      <div class="footer-divider"></div>
+      <p class="footer-copyright">© 2026 PulsePersona News Agent • All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script src="app.js?v=7.0"></script>
+</body>
+</html>

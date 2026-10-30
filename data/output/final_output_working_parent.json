@@ -1,0 +1,176 @@
+{
+  "persona_id": "working_parent",
+  "persona_name": "Working Parent",
+  "persona_description": "Parents balancing work and family who want practical, relevant news for their household.",
+  "week_start_date": "2026-09-10",
+  "week_end_date": "2026-09-17",
+  "weekly_insight": "This week’s developments point to a growing institutional movement aimed at fortifying family stability, connecting structural healthcare updates with practical financial relief for households. Major policy shifts—from universal free school lunches and potential insurance coverage for pediatric vision care to no-loan college initiatives—offer meaningful economic support for parents navigating the rising costs of raising children. On the health front, an increased focus on identifying parental burnout alongside major investments in maternal care highlights a vital push to safeguard the overall physical and emotional well-being of primary caregivers. Concurrently, the rapid integration of Big Tech AI curricula in classrooms signals a evolving educational landscape that requires working parents to stay attuned to modern learning environments. Ultimately, these overlapping trends reflect a broader effort to modernize family safety nets, offering parents both tailored tools and systemic support in an increasingly demanding landscape.",
+  "total_articles": 10,
+  "total_categories": 2,
+  "categories": [
+    {
+      "topic": "education policy",
+      "count": 9,
+      "articles": [
+        {
+          "title": "Universal Free Lunch Programs Show Mixed Impact on Grades but Offer Clear Financial and Social Gains",
+          "bullets": [
+            "Experts argue that giving every student a free lunch can help improve academic performance.",
+            "A Scientific American review says the evidence linking free meals to better grades is still unclear.",
+            "The programs do provide obvious financial relief for families and reduce stigma for low‑income students."
+          ],
+          "source": "Scientific American",
+          "url": "https://www.scientificamerican.com/article/do-universal-free-lunch-programs-affect-students-academic-performance/",
+          "published_at": "2026-09-15T16:00:00Z",
+          "relevance_score": 0.92,
+          "scoring_reason": "Directly addresses universal free school lunch programs, combining education policy, child health, and family government benefits.",
+          "read_time_minutes": 1,
+          "original_title": "Do universal free lunch programs affect students' academic performance?"
+        },
+        {
+          "title": "AMA Calls Nearsightedness a Disease, Urges Insurance Coverage for Kids",
+          "bullets": [
+            "The American Medical Association says nearsightedness should be treated as a disease.",
+            "It wants health insurers to pay for treatments that can slow the condition in children.",
+            "Better coverage could help more kids keep their vision clear and reduce future eye problems."
+          ],
+          "source": "Aao.org",
+          "url": "https://www.aao.org/newsroom/news-releases/detail/ama-backs-formal-classification-nearsightedness",
+          "published_at": "2026-09-13T07:35:33Z",
+          "relevance_score": 0.85,
+          "scoring_reason": "Directly relevant to child health and insurance coverage for treatments that slow nearsightedness in kids.",
+          "read_time_minutes": 1,
+          "original_title": "American Medical Association Backs Classification of Nearsightedness as Disease"
+        },
+        {
+          "title": "Carleton College Ends Student Loans, Shifts to No-Loan Financial Aid",
+          "bullets": [
+            "Beginning next fall, Carleton College will not require any incoming students to take federal or school loans.",
+            "The new policy affects thousands of students at the selective private college in Minnesota.",
+            "By removing loan requirements, the college aims to lower student debt and make tuition more affordable."
+          ],
+          "source": "Inside Higher Ed",
+          "url": "https://www.insidehighered.com/news/quick-takes/2026/09/15/carleton-college-adopts-no-loan-financial-aid-policy",
+          "published_at": "2026-09-15T07:00:00Z",
+          "relevance_score": 0.82,
+          "scoring_reason": "Covers college financial aid and no-loan policy, highly relevant to parents planning for higher education expenses.",
+          "read_time_minutes": 1,
+          "original_title": "Carleton College Adopts No-Loan Financial Aid Policy"
+        },
+        {
+          "title": "Walmart Heirs Donate $100 Million to Fight U.S. Maternal Deaths",
+          "bullets": [
+            "Olivia and Tom Walton are giving $100 million to start a national effort against maternal mortality.",
+            "They plan the money to act as seed funding, encouraging states and other donors to add more resources.",
+            "The goal is to reduce the high rate of maternal deaths in the United States, especially among low‑income and minority women."
+          ],
+          "source": "Yahoo Entertainment",
+          "url": "https://www.yahoo.com/news/us/articles/walmart-heirs-olivia-tom-walton-070200052.html",
+          "published_at": "2026-09-15T13:08:00Z",
+          "relevance_score": 0.78,
+          "scoring_reason": "Focuses on funding solutions for the maternal death crisis, touching on health and maternal care.",
+          "read_time_minutes": 1,
+          "original_title": "Walmart heirs Olivia and Tom Walton are committing $100 million to America’s maternal death crisis—and betting states and donors will pour in more"
+        },
+        {
+          "title": "Teachers Fear AI Is Quickly Dominating Classrooms Across Europe",
+          "bullets": [
+            "Around 80% of teachers in Europe say AI is already having a clear impact on education.",
+            "Students are increasingly using AI to complete basic assignments and tasks.",
+            "Educators worry the rapid spread of AI may outpace their ability to control its use in schools."
+          ],
+          "source": "TechRadar",
+          "url": "https://www.techradar.com/pro/teachers-are-worried-ai-is-taking-over-the-classroom-faster-than-they-can-stop-it",
+          "published_at": "2026-09-12T07:00:00Z",
+          "relevance_score": 0.78,
+          "scoring_reason": "Explores the practical impact of AI technology in school classrooms and its effect on student learning.",
+          "read_time_minutes": 1,
+          "original_title": "Teachers are worried AI is taking over the classroom faster than they can stop it"
+        },
+        {
+          "title": "21 Million U.S. Women Lack Easy Access to Birth Control",
+          "bullets": [
+            "About 21 million women live in counties where getting contraceptives is difficult.",
+            "Many of these areas have few clinics, pharmacies, or insurance options for birth control.",
+            "The data used is several years old, so the true number of women affected may be higher.",
+            "Limited access can lead to more unintended pregnancies and widen health disparities, prompting calls for policy changes."
+          ],
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5956869/birth-control-contraception-access-clinic",
+          "published_at": "2026-09-16T09:00:00Z",
+          "relevance_score": 0.65,
+          "scoring_reason": "Covers access to healthcare and birth control in the U.S., relevant to family planning and health.",
+          "read_time_minutes": 1,
+          "original_title": "21 million women live in U.S. counties with limited birth control access"
+        },
+        {
+          "title": "Schools Adopt Big Tech's Curriculum to Teach AI and Tech Skills",
+          "bullets": [
+            "More schools are using lesson plans and tools created by major tech firms to teach AI, coding, and data science.",
+            "These companies are providing the software, training, and curriculum to teachers for free or at low cost.",
+            "Students need these skills to stay competitive, as many future jobs will require knowledge of AI and advanced tech.",
+            "The effort aims to close the skills gap and prepare the next generation for the tech-driven job market."
+          ],
+          "source": "The Verge",
+          "url": "https://www.theverge.com/policy/993308/computer-science-ai-education-coding-kids",
+          "published_at": "2026-09-10T19:49:38Z",
+          "relevance_score": 0.62,
+          "scoring_reason": "Discusses tech company influence and curriculum in schools, which aligns with education policy and children's education.",
+          "read_time_minutes": 1,
+          "original_title": "Schools are catching on to Big Tech’s playbook"
+        },
+        {
+          "title": "NYC Sues Trump Administration Over Rule Tying Benefits to Green Cards",
+          "bullets": [
+            "New York City and several other local governments filed a lawsuit to block a new federal rule that links public benefits to having a green card.",
+            "The rule would require legal permanent residents to show a green card to receive benefits such as food stamps, Medicaid, and housing aid.",
+            "City leaders say the policy discriminates against legal immigrants and could leave many families without essential services."
+          ],
+          "source": "USA Today",
+          "url": "https://www.usatoday.com/story/news/nation/2026/09/14/mamdani-immigration-trump-lawsuit-public-charge-benefits-nyc/91756801007/",
+          "published_at": "2026-09-14T16:03:16Z",
+          "relevance_score": 0.45,
+          "scoring_reason": "Relates to government public benefits, though focused heavily on political and legal immigration battles.",
+          "read_time_minutes": 1,
+          "original_title": "NYC leads lawsuit over Trump rule linking benefits to green cards"
+        },
+        {
+          "title": "Chicago Mayor Brandon Johnson Seeks Progressive Support for Reelection",
+          "bullets": [
+            "Mayor Brandon Johnson announced his bid for a second term in Chicago.",
+            "He is counting on a growing far‑left movement to increase voter turnout in his favor.",
+            "Johnson hopes progressive backing will offset criticism over his job performance and shape the city's future policies."
+          ],
+          "source": "Politico",
+          "url": "https://www.politico.com/news/2026/09/13/brandon-johnson-reelection-campaign-progressives-dsa-01073547",
+          "published_at": "2026-09-13T13:30:00Z",
+          "relevance_score": 0.35,
+          "scoring_reason": "Local municipal political news about Chicago mayoral bid; offers limited practical value for family life.",
+          "read_time_minutes": 1,
+          "original_title": "Chicago mayor bets progressives will turn out for him in announcing reelection bid"
+        }
+      ]
+    },
+    {
+      "topic": "parenting tips",
+      "count": 1,
+      "articles": [
+        {
+          "title": "Four Signs Parents May Be Experiencing Burnout, Not Just Fatigue",
+          "bullets": [
+            "Parents may feel chronic exhaustion, emotional distance from their kids, loss of parental fulfillment, and a sense of being trapped—these are the four main signs of parental burnout.",
+            "These symptoms differ from work burnout or depression because they specifically involve the parent‑child relationship and feelings of inadequacy as a parent.",
+            "Spotting these signs early helps parents seek support, set realistic boundaries, and improve family well‑being."
+          ],
+          "source": "Lifehack.org",
+          "url": "https://www.lifehack.org/991521/parental-burnout-symptoms",
+          "published_at": "2026-09-15T18:00:00Z",
+          "relevance_score": 0.96,
+          "scoring_reason": "Provides actionable practical parenting tips and signs regarding parental burnout and health.",
+          "read_time_minutes": 1,
+          "original_title": "Parental Burnout Symptoms: 4 Signs It Isn't Just Tiredness"
+        }
+      ]
+    }
+  ]
+}

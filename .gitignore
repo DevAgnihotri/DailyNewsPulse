@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Data artifacts
+data/intermediate/
+data/output/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+
+.pytest_cache
+
+dev_jim_mca_2024
+/home/dev_jim_mca_2024/btechsem5DBMS

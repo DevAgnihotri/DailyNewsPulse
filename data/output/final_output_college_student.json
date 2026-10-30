@@ -1,0 +1,176 @@
+{
+  "persona_id": "college_student",
+  "persona_name": "College Student",
+  "persona_description": "Students interested in campus life, careers, and light general news in simple language.",
+  "week_start_date": "2026-09-13",
+  "week_end_date": "2026-09-20",
+  "weekly_insight": "As economic pressures and rising living costs force Gen Z to redefine traditional adulthood, students are prioritizing stable, high-paying career paths like software engineering alongside proactive networking strategies such as coffee chats. However, even as technology remains a top career target, the rapid rise of AI and general job market anxiety are encouraging young adults to build safety nets through versatile skills and extra income streams. At the same time, growing reports of high student loan default rates underscore the importance of making cautious, informed choices about higher education and personal finances. Beyond academic and career prep, managing midterm pressure continues to highlight the value of genuine, non-competitive friendships for mental wellbeing. This dynamic shift in student life is also echoed across pop culture, where new college-centered shows and media updates offer a relatable blend of entertainment and shared campus experiences.",
+  "total_articles": 10,
+  "total_categories": 2,
+  "categories": [
+    {
+      "topic": "campus life",
+      "count": 5,
+      "articles": [
+        {
+          "title": "College Stress Reveals Friendship Can Thrive Beyond Campus Boundaries",
+          "bullets": [
+            "The author struggled with midterms while her childhood best friend excelled in a pre‑med program.",
+            "Academic pressure and different school locations tested their relationship.",
+            "They realized true friendship isn’t limited by where they study or zip codes.",
+            "The story highlights that caring for each other's wellbeing matters more than competition."
+          ],
+          "source": "Twistedsifter.com",
+          "url": "https://twistedsifter.com/2026/09/she-spent-months-drowning-in-midterms-while-her-childhood-best-friend-blazed-through-pre-med-then-discovered-real-friendship-isnt-bound-by-a-campus-zip-code/",
+          "published_at": "2026-09-18T08:15:34Z",
+          "relevance_score": 0.9,
+          "scoring_reason": "Directly tackles relatable college experiences: midterms, pre-med stress, and keeping up long-distance friendships.",
+          "read_time_minutes": 1,
+          "original_title": "She Spent Months Drowning in Midterms While Her Childhood Best Friend Blazed Through Pre-Med—Then Discovered Real Friendship Isn’t Bound by a Campus Zip Code"
+        },
+        {
+          "title": "500 Colleges Linked to High Student Loan Non‑payment Rates",
+          "bullets": [
+            "Federal data shows borrowers who aren’t repaying loans mostly attended private, for‑profit colleges.",
+            "These schools often market to low‑income students and depend heavily on federal financial aid for revenue.",
+            "The trend raises concerns about loan defaults and the need for stronger oversight of such institutions."
+          ],
+          "source": "NPR",
+          "url": "https://www.npr.org/2026/09/16/nx-s1-5946419/student-loans-repayment-for-profit-college",
+          "published_at": "2026-09-16T09:00:00Z",
+          "relevance_score": 0.8,
+          "scoring_reason": "Directly addresses college student loans, higher education value, and financial aid.",
+          "read_time_minutes": 1,
+          "original_title": "The 500 colleges where former students aren't repaying their loans, and why"
+        },
+        {
+          "title": "'A Different World' Returns to Netflix with New Black Creators Reviving Hillman College",
+          "bullets": [
+            "The beloved sitcom is coming back to Netflix almost 40 years after it originally ended.",
+            "A new generation of Black creators, together with original producers Susan Fales‑Hill and Debbie Allen, are leading the revival.",
+            "The reboot aims to tell fresh stories while preserving the show's focus on life at a Black college."
+          ],
+          "source": "Vanity Fair",
+          "url": "https://www.vanityfair.com/story/a-different-world-reboot-netflix-exclusive",
+          "published_at": "2026-09-18T13:00:00Z",
+          "relevance_score": 0.8,
+          "scoring_reason": "Pop culture news detailing the reboot of a classic TV sitcom focused on college campus life.",
+          "read_time_minutes": 1,
+          "original_title": "Back to ‘A Different World’: An Exclusive Look at the Beloved Sitcom's Netflix Return"
+        },
+        {
+          "title": "Australian Actor Behind 'Off Campus' Star Justin Kohl Gains Recognition",
+          "bullets": [
+            "The character Justin Kohl is played by a rising Australian actor.",
+            "He has already appeared in a few other popular TV shows.",
+            "Because of his previous roles, viewers may find him familiar."
+          ],
+          "source": "TVLine",
+          "url": "https://www.tvline.com/2257194/justin-kohl-off-campus-actor-josh-heuston/",
+          "published_at": "2026-09-14T18:52:00Z",
+          "relevance_score": 0.75,
+          "scoring_reason": "Pop culture feature about the cast of a college-centered TV drama.",
+          "read_time_minutes": 1,
+          "original_title": "Why Justin Kohl From Off Campus Looks So Familiar"
+        },
+        {
+          "title": "Belmont Cameli Praises Ella Bright Amid Rumors of Feud",
+          "bullets": [
+            "Belmont Cameli said Ella Bright is \"the perfect Hannah Wells\" while promoting their Prime Video series.",
+            "His comment comes as online rumors suggested a falling out between the two co‑stars.",
+            "The public praise aims to counter the speculation and show the pair are still on good terms."
+          ],
+          "source": "Us Weekly",
+          "url": "https://www.usmagazine.com/celebrity-news/news/belmont-cameli-gushes-over-ella-bright-amid-feud-rumors/",
+          "published_at": "2026-09-14T00:41:00Z",
+          "relevance_score": 0.75,
+          "scoring_reason": "Pop culture celebrity gossip about the actors in a campus-based streaming series.",
+          "read_time_minutes": 1,
+          "original_title": "Off Campus’ Belmont Cameli Gushes Over Costar Ella Bright Amid Feud Rumors"
+        }
+      ]
+    },
+    {
+      "topic": "career and jobs",
+      "count": 5,
+      "articles": [
+        {
+          "title": "Software Engineer Becomes Top Dream Job for Teens, Survey Finds",
+          "bullets": [
+            "A survey of over 6,000 teens and young adults shows software engineering now tops the list of desired careers.",
+            "Being an influencer dropped out of the top spot, indicating a shift toward more stable, high‑paying tech jobs.",
+            "The trend could push schools and training programs to focus more on coding and digital skills."
+          ],
+          "source": "Entrepreneur",
+          "url": "https://www.entrepreneur.com/business-news/young-adults-have-a-surprising-new-top-dream-career",
+          "published_at": "2026-09-14T15:15:33Z",
+          "relevance_score": 0.95,
+          "scoring_reason": "Directly covers career aspirations and survey trends among teens and young adults.",
+          "read_time_minutes": 1,
+          "original_title": "Young Adults Have a Surprising New Top Dream Career, and It Isn’t Being an Influencer"
+        },
+        {
+          "title": "Gen Z Says Traditional Milestones Like Buying a Home and Starting a Family Are Becoming Unaffordable",
+          "bullets": [
+            "Many people in their mid‑20s have good jobs but still find it hard to buy a house, get married, or have children.",
+            "Rising costs for housing, education and living expenses are pushing these milestones beyond reach for the generation.",
+            "As a result, Gen Z is redefining what adulthood means, focusing on career and personal goals instead of traditional markers.",
+            "Experts say the trend could reshape future economic and social patterns."
+          ],
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/gen-z-adulthood-homeownership-marriage-kids-unaffordable-2026-9#article",
+          "published_at": "2026-09-18T12:20:01Z",
+          "relevance_score": 0.9,
+          "scoring_reason": "Highly relatable essay on Gen Z career expectations, cost of living, and young adult milestones.",
+          "read_time_minutes": 1,
+          "original_title": "We're told Gen Z is redefining adulthood. Sometimes I think we just can't afford the old definition."
+        },
+        {
+          "title": "Millennials Build Skills and Side Income to Guard Against Job Loss",
+          "bullets": [
+            "Many millennials feel burnt out and fear layoffs in the current job market.",
+            "To protect themselves, they are learning new skills and creating extra sources of income.",
+            "These safety nets aim to provide greater financial stability and career security."
+          ],
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/millennials-burnout-insecurity-job-stability-stacking-2026-9#article",
+          "published_at": "2026-09-15T12:05:01Z",
+          "relevance_score": 0.85,
+          "scoring_reason": "Offers career building and income diversification strategies for young workers navigating tech/corporate layoffs.",
+          "read_time_minutes": 1,
+          "original_title": "Welcome to the era of stability stacking"
+        },
+        {
+          "title": "AI Boosts Anxiety Among Tech Workers, Says Venture Partner",
+          "bullets": [
+            "Menlo Ventures partner Deedy Das says AI is making tech employees worry about losing their jobs.",
+            "Workers are also concerned about money, housing costs, and their long‑term future because of AI advances.",
+            "The growing fear could lead to higher stress, job changes, and calls for better workplace support."
+          ],
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/ai-anxiety-tech-workers-silicon-valley-career-prospects-menlo-ventures-2026-9#article",
+          "published_at": "2026-09-17T15:36:01Z",
+          "relevance_score": 0.8,
+          "scoring_reason": "Addresses tech job security and young worker anxiety regarding AI tools.",
+          "read_time_minutes": 1,
+          "original_title": "AI is fueling 'off-the-charts' anxiety among tech workers, says Menlo Ventures partner"
+        },
+        {
+          "title": "Morgan Stanley Exec Advises Coffee Meetings to Test Wall Street Ambition",
+          "bullets": [
+            "Lindsey Coleman, a Morgan Stanley executive, says asking for a coffee chat shows how serious someone is about a finance career.",
+            "She urges aspiring professionals to start building relationships early, before they actually need them.",
+            "The coffee‑meeting tip is part of her top five pieces of advice for breaking into Wall Street."
+          ],
+          "source": "Business Insider",
+          "url": "https://www.businessinsider.com/morgan-stanley-lindsey-coleman-networking-wall-street-advice-2026-9#article",
+          "published_at": "2026-09-18T09:59:01Z",
+          "relevance_score": 0.8,
+          "scoring_reason": "Practical networking and early-career advice for students looking to break into finance.",
+          "read_time_minutes": 1,
+          "original_title": "Morgan Stanley exec Lindsey Coleman shares her coffee-meeting request to tell who is serious about a Wall Street career"
+        }
+      ]
+    }
+  ]
+}
